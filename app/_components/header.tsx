@@ -2,7 +2,7 @@ import NavLink from "./nav-link";
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center">
+    <header className="flex justify-between items-center py-3">
       <h1 className="font-semibold text-2xl">Dev News</h1>
       <nav className="flex gap-6 ">
         <NavLink href="/">Blog</NavLink>
